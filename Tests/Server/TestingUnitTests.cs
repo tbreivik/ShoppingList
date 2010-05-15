@@ -5,7 +5,7 @@ namespace Server
     [TestClass]
     public class TestingUnitTests
     {
-
+        [TestMethod]
         public void TestRunner()
         {
             Assert.Fail();
