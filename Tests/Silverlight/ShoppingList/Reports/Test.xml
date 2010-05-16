@@ -1,0 +1,13 @@
+<StatLightTestResults xapFileName="Bin\Debug\ShoppingList.xap" total="2" ignored="0" failed="1" dateRun="2010-05-16 02:24:33">
+  <tests>
+    <test name="ShoppingList.Tests.TestMethod1" resulttype="Failed" timeToComplete="00:00:00.0100006">
+      <exceptionInfo>
+        <message>Assert.Fail failed. Failing</message>
+        <stackTrace>   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message)
+   at ShoppingList.Tests.TestMethod1()</stackTrace>
+      </exceptionInfo>
+    </test>
+    <test name="ShoppingList.Tests.TestMethod2" resulttype="Passed" timeToComplete="00:00:00.0010001" />
+  </tests>
+</StatLightTestResults>
